@@ -3,6 +3,10 @@ import 'package:lib/todo.dart';
 import 'package:ansicolor/ansicolor.dart';
 
 
+final AnsiPen greenPen = AnsiPen()..green();
+final AnsiPen redPen = AnsiPen()..red();
+final AnsiPen bluePen = AnsiPen()..blue();
+final AnsiPen yellowPen = AnsiPen()..yellow();
 
 void printMenu() {
   print('');
